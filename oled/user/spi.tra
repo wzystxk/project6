@@ -1,0 +1,26 @@
+*** Creating Trace Output File 'spi.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup_stm32f0xx.o"'
+### List of Objects: adding '"system_stm32f0xx.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"w25x16.o"'
+### List of Objects: adding '"ili9328.o"'
+### List of Objects: adding '"stm32f0xx_spi.o"'
+### List of Objects: adding '"stm32f0xx_gpio.o"'
+### List of Objects: adding '"stm32f0xx_rcc.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M0 "startup_stm32f0xx.o" "system_stm32f0xx.o" "main.o" "w25x16.o" "ili9328.o" "stm32f0xx_spi.o" "stm32f0xx_gpio.o" "stm32f0xx_rcc.o" --strict --scatter "spi.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\spi.map" -o "spi.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'spi.axf'
+### ADS-LD Command File: 'spi.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'spi.lnp', Handle=0x00000410
+### Writing '.lnp' file
+### ADS-LD Command file 'spi.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

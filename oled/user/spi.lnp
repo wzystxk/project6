@@ -1,0 +1,14 @@
+--cpu Cortex-M0
+".\startup_stm32f0xx.o"
+".\system_stm32f0xx.o"
+".\main.o"
+".\oled.o"
+".\sys.o"
+".\delay.o"
+".\stm32f0xx_spi.o"
+".\stm32f0xx_gpio.o"
+".\stm32f0xx_rcc.o"
+--strict --scatter ".\spi.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\spi.map" -o .\spi.axf
